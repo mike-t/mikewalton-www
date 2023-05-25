@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "private": false,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -10,12 +10,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "@newrelic/next": "^0.5.1",
     "@prisma/client": "^4.11.0",
     "@t3-oss/env-nextjs": "^0.2.1",
     "@vercel/analytics": "^1.0.1",
     "@vercel/edge-config": "^0.2.0",
-    "newrelic": "^10.1.2",
     "next": "^13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -41,5 +39,10 @@
   },
   "ct3aMetadata": {
     "initVersion": "7.13.0"
-  }
+  },
+  "description": "Mike Walton's portfolio web app",
+  "main": "index.js",
+  "repository": "https://github.com/mike-t/my-portfolio.git",
+  "author": "Mike Walton <727393+mike-t@users.noreply.github.com>",
+  "license": "MIT"
 }
