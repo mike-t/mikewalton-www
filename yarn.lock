@@ -187,6 +187,13 @@
     nan "^2.16.0"
     semver "^5.5.1"
 
+"@newrelic/next@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@newrelic/next/-/next-0.5.1.tgz#208d4e4f280573c1a29285e9758308e39f43824e"
+  integrity sha512-2kwzZzgOb7Fw1Ay+fDBOyXnLS83D6xPBAvH32MKJNujX1k828/cTpA2t+yjbTEkdaXImOt/WJs9yC2D2pglphg==
+  dependencies:
+    semver "^7.3.7"
+
 "@newrelic/superagent@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@newrelic/superagent/-/superagent-6.0.0.tgz#8aee871547ebea90fcb37f98ea38d820cc1bc67b"
@@ -548,6 +555,18 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.0.1.tgz#38308a626c91866cb00a249c08bf65251e9b9d81"
   integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
+
+"@vercel/edge-config-fs@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@vercel/edge-config-fs/-/edge-config-fs-0.1.0.tgz#cda8327f611418c1d1cbb28c6bed02d782be928b"
+  integrity sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==
+
+"@vercel/edge-config@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@vercel/edge-config/-/edge-config-0.2.0.tgz#3c88a361fefd8a1f47fb5856b857992cad1fc56c"
+  integrity sha512-gHs5dqhyOOU+Gh5kLLe6FVXKQr5D9Igb0w8xby0DSgCCY2VNv4cm+mHRtCbgQoD4MyMw7tgGFQme4DkJUNAmEg==
+  dependencies:
+    "@vercel/edge-config-fs" "0.1.0"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -2160,10 +2179,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-newrelic@^10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-10.1.1.tgz#24b3eeca668632d99ff9a30cd2ada20101393f1e"
-  integrity sha512-evJrxNR62awuRouV+GglH5kMZfM6G+afN2bfLv+uq2xZ/HXTi7c/kPdSD1Jai37bt6I+a5NjAnDARKlXfplMCg==
+newrelic@^10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/newrelic/-/newrelic-10.1.2.tgz#8b1ae51813ffc235821e9c08033f8d16e8d0615c"
+  integrity sha512-aI2nAuNgEJbx+7dEztQJahA6IG/PdVVd4sd6Al4AECRqSPZVgEhHlzeR4ScNptsKxgHC46Ru8OdBBaU5FZ7fHQ==
   dependencies:
     "@grpc/grpc-js" "^1.8.10"
     "@grpc/proto-loader" "^0.7.5"
