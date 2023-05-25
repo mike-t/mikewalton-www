@@ -1,6 +1,6 @@
 # Portfolio Webapp - Mike Walton
 For dev nerd stuff, that's about it folks. 
-https://mikewalton.dev[https://www.mikewalton.dev]
+https://mikewalton.dev
 
 ## Tech Stack
 Platform: Vercel
