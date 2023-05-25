@@ -1,13 +1,13 @@
 {
   "name": "my-portfolio",
   "version": "0.2.0",
-  "private": false,
+  "private": true,
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
-    "postinstall": "prisma generate",
-    "lint": "next lint",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",  
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^4.11.0",

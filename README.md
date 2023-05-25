@@ -10,3 +10,7 @@ For dev nerd stuff, that's about it folks.
 * CSS - Tailwind, Radix UI
 * DB - Postgres
 * Auth - NextAuth.js
+
+## Todo
+* the RIGHT way to do layouts with fonts that compile locally (using Tailwind)
+* 
