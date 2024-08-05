@@ -13,4 +13,4 @@ For dev nerd stuff, that's about it folks.
 
 ## Todo
 * the RIGHT way to do layouts with fonts that compile locally (using Tailwind)
-* 
+* use the constants for fonts before commiting build

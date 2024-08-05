@@ -14,6 +14,7 @@ const Home: NextPage = () => {
             // width={500} automatically provided
             // height={500} automatically provided
             placeholder="blur" // Optional blur-up while loading
+            className="animate-bounce once hover:animate-pulse" 
           />
           <h1 className="antialiased text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] font-special">
             Mike <span className="text-pink">Walton</span>
